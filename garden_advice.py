@@ -1,7 +1,14 @@
-# Function to generate gardening advice based on season and plant type
-def get_gardening_advice(season, plant_type):
+"""
+Garden Advice Application
+Provides gardening tips based on season and plant type.
+"""
 
-    # Variable to hold gardening advice
+# Function to generate gardening advice
+def get_gardening_advice(season, plant_type):
+    """
+    Generates gardening advice based on the season and plant type.
+    """
+
     advice = ""
 
     # Determine advice based on the season
@@ -23,11 +30,11 @@ def get_gardening_advice(season, plant_type):
     return advice
 
 
-# Hardcoded values for now (can be replaced with input later)
+# Hardcoded values (can later be replaced with input())
 season = "summer"
 plant_type = "flower"
 
-# Call the function
+# Call the function to get advice
 advice = get_gardening_advice(season, plant_type)
 
 # Print the generated advice
